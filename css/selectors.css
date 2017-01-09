@@ -1,0 +1,71 @@
+
+#nav {
+	border: 1px solid blue;
+ 	width: 75%;
+    height: 10%;
+}
+
+#nav li {
+    margin: 10px;
+    padding: 0;
+    display: inline;
+}
+
+.disabled {
+	color: grey;
+}
+
+a.disabled {
+	color: purple;
+}
+
+a >> .disabled {
+	color: purple;
+}
+
+.active {
+	color: yellow;
+}
+
+#imred {
+	color: red;
+}
+
+#imblue {
+	color: blue;
+}
+
+#redbackground {
+	background-color: red;
+}
+
+#bluebackground {
+	background-color: blue;
+}
+
+.promo {
+	font-weight: bold;
+	color: gold;
+}
+
+input {
+	height: 25px;
+}
+
+
+
+/*Border for child of grandparent*/
+
+.grandparent > h4 {
+	border: 1px solid green;
+	line-height: 30px;
+	border-width: 5px;
+	border-radius: 20%;
+	padding: 100px;
+}
+
+
+
+
+
+
